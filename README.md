@@ -1,6 +1,8 @@
-# PartyDori
+# Party Dori
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
+Party Dori is a distributed chat system
+that aims to provide some level of block mechanism
+while maintaining the efficiency of distributing messages.
 
 ## Development server
 
