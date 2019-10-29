@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Party } from '../../models/party';
 
 @Component({
   selector: 'app-parties',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PartiesComponent implements OnInit {
 
-  id = 'Girls net party~~';
+  party: Party = {
+    id: 'Girls net party~~',
+    host: 'Kano',
+    message: ''
+  };
 
   constructor() { }
 

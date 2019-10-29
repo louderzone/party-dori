@@ -1,1 +1,10 @@
-{{ id }}
+<div>
+  <h3>Party #{{ party.id | uppercase }}</h3>
+  <h4>Host: {{ party.host }}</h4>
+  <div><span>Party Message: {{ party.message }} </span></div>
+  <div>
+    <label>Party Message:
+      <input [(ngModel)]="party.message" placeholder="00000"/>
+    </label>
+  </div>
+</div>
