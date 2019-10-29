@@ -1,5 +1,8 @@
 # Party Dori
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/1b5a34ef8993beadbbb0/maintainability)](https://codeclimate.com/github/louderzone/party-dori/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1b5a34ef8993beadbbb0/test_coverage)](https://codeclimate.com/github/louderzone/party-dori/test_coverage)
+
 Party Dori is a distributed chat system
 that aims to provide some level of block mechanism
 while maintaining the efficiency of distributing messages.
