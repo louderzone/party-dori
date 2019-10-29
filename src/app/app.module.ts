@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PartiesComponent } from './parties/parties.component';
+import { PartyComponent } from './party/party.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PartiesComponent
+    PartyComponent
   ],
   imports: [
     BrowserModule,
