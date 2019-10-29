@@ -1,5 +1,10 @@
 version: "2"
 plugins:
-  tslint:
+  eslint:
     enabled: true
-    config: "tslint.json"
+    channel: "eslint-5"
+    config:
+      config: ".eslintrc.json"
+      extensions:
+        - .js
+        - .ts
